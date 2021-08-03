@@ -1,0 +1,32 @@
+-- Instructions --
+	* Open keyparser.exe that is included in keyparser folder
+	* Wait until Transformice window opens
+	* Press Spacebar key on Transformice login interface.
+	  It will open a popup message
+	* Copy the entire popup message
+	* Close Transformice window
+	* Paste the message you copied into keyparser window and press Enter
+	* Open bot.exe
+
+++
+	You can change bot username and password in config.txt file
+	To add an admin into the admins list (in config.txt), you must use this format -> "Nick#tag": 0
+	Example:
+		"admins": {"Fly#9225": 0, "Whindersson#1245": 0}
+
+-- PT/BR
+-- Instruções --
+	* Abra keyparser.exe que está incluido na pasta keyparser
+	* Espere até que a janela do Transformice abra
+	* Aperte a tecla barra de espaço depois que o Transformice carregar.
+	  Vai aparecer uma caixa de mensagem
+	* Copie a mensagem inteira
+	* Feche a janela do Transformice
+	* Cole a mensagem que você copiou na janela do keyparser e aperte a tecla Enter
+	* Abra bot.exe
+
+++
+	Você pode mudar o nome e a senha do bot no arquivo config.txt
+	Para adicionar um administrador na lista admins (em config.txt), você deve usar esse formato -> "Nick#tag": 0
+	Exemplo:
+		"admins": {"Fly#9225": 0, "Whindersson#1245": 0}

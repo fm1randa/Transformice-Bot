@@ -1,0 +1,161 @@
+
+========================================
+- Time: 24/12/2020 - 19:51:25
+- Error: 
+Traceback (most recent call last):
+  File "aiomysql\connection.py", line 503, in _connect
+  File "aiomysql\connection.py", line 785, in _request_authentication
+  File "aiomysql\connection.py", line 593, in _read_packet
+  File "pymysql\protocol.py", line 220, in check_error
+  File "pymysql\err.py", line 109, in raise_mysql_exception
+pymysql.err.OperationalError: (1045, "Access denied for user 'iig9ez4StJ'@'138.255.16.211' (using password: YES)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 58, in <module>
+  File "asyncio\base_events.py", line 616, in run_until_complete
+  File "main.py", line 38, in main
+  File "aiomysql\pool.py", line 29, in _create_pool
+  File "aiomysql\pool.py", line 167, in _fill_free_pool
+  File "aiomysql\connection.py", line 75, in _connect
+  File "aiomysql\connection.py", line 521, in _connect
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'remotemysql.com'")
+
+========================================
+- Time: 24/12/2020 - 19:51:51
+- Error: 
+Traceback (most recent call last):
+  File "aiomysql\connection.py", line 503, in _connect
+  File "aiomysql\connection.py", line 785, in _request_authentication
+  File "aiomysql\connection.py", line 593, in _read_packet
+  File "pymysql\protocol.py", line 220, in check_error
+  File "pymysql\err.py", line 109, in raise_mysql_exception
+pymysql.err.OperationalError: (1045, "Access denied for user 'iig9ez4StJ'@'138.255.16.211' (using password: YES)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 58, in <module>
+  File "asyncio\base_events.py", line 616, in run_until_complete
+  File "main.py", line 38, in main
+  File "aiomysql\pool.py", line 29, in _create_pool
+  File "aiomysql\pool.py", line 167, in _fill_free_pool
+  File "aiomysql\connection.py", line 75, in _connect
+  File "aiomysql\connection.py", line 521, in _connect
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'remotemysql.com'")
+
+========================================
+- Time: 12/01/2021 - 15:46:24
+- Error: 
+Traceback (most recent call last):
+  File "aiomysql\connection.py", line 503, in _connect
+  File "aiomysql\connection.py", line 785, in _request_authentication
+  File "aiomysql\connection.py", line 593, in _read_packet
+  File "pymysql\protocol.py", line 220, in check_error
+  File "pymysql\err.py", line 109, in raise_mysql_exception
+pymysql.err.OperationalError: (1045, "Access denied for user 'iig9ez4StJ'@'131.161.230.155' (using password: YES)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 58, in <module>
+  File "asyncio\base_events.py", line 616, in run_until_complete
+  File "main.py", line 38, in main
+  File "aiomysql\pool.py", line 29, in _create_pool
+  File "aiomysql\pool.py", line 167, in _fill_free_pool
+  File "aiomysql\connection.py", line 75, in _connect
+  File "aiomysql\connection.py", line 521, in _connect
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'remotemysql.com'")
+
+========================================
+- Time: 03/08/2021 - 13:15:43
+- Error: 
+Traceback (most recent call last):
+  File "aiomysql\connection.py", line 503, in _connect
+  File "aiomysql\connection.py", line 785, in _request_authentication
+  File "aiomysql\connection.py", line 593, in _read_packet
+  File "pymysql\protocol.py", line 220, in check_error
+  File "pymysql\err.py", line 109, in raise_mysql_exception
+pymysql.err.OperationalError: (1045, "Access denied for user 'iig9ez4StJ'@'86.59.131.232' (using password: YES)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 58, in <module>
+  File "asyncio\base_events.py", line 616, in run_until_complete
+  File "main.py", line 38, in main
+  File "aiomysql\pool.py", line 29, in _create_pool
+  File "aiomysql\pool.py", line 167, in _fill_free_pool
+  File "aiomysql\connection.py", line 75, in _connect
+  File "aiomysql\connection.py", line 521, in _connect
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'remotemysql.com'")
+
+========================================
+- Time: 03/08/2021 - 13:17:09
+- Error: 
+Traceback (most recent call last):
+  File "aiomysql\connection.py", line 503, in _connect
+  File "aiomysql\connection.py", line 785, in _request_authentication
+  File "aiomysql\connection.py", line 593, in _read_packet
+  File "pymysql\protocol.py", line 220, in check_error
+  File "pymysql\err.py", line 109, in raise_mysql_exception
+pymysql.err.OperationalError: (1045, "Access denied for user 'iig9ez4StJ'@'86.59.131.232' (using password: YES)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 58, in <module>
+  File "asyncio\base_events.py", line 616, in run_until_complete
+  File "main.py", line 38, in main
+  File "aiomysql\pool.py", line 29, in _create_pool
+  File "aiomysql\pool.py", line 167, in _fill_free_pool
+  File "aiomysql\connection.py", line 75, in _connect
+  File "aiomysql\connection.py", line 521, in _connect
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'remotemysql.com'")
+
+========================================
+- Time: 03/08/2021 - 13:19:42
+- Error: 
+Traceback (most recent call last):
+  File "aiomysql\connection.py", line 503, in _connect
+  File "aiomysql\connection.py", line 785, in _request_authentication
+  File "aiomysql\connection.py", line 593, in _read_packet
+  File "pymysql\protocol.py", line 220, in check_error
+  File "pymysql\err.py", line 109, in raise_mysql_exception
+pymysql.err.OperationalError: (1045, "Access denied for user 'iig9ez4StJ'@'86.59.131.232' (using password: YES)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 58, in <module>
+  File "asyncio\base_events.py", line 616, in run_until_complete
+  File "main.py", line 38, in main
+  File "aiomysql\pool.py", line 29, in _create_pool
+  File "aiomysql\pool.py", line 167, in _fill_free_pool
+  File "aiomysql\connection.py", line 75, in _connect
+  File "aiomysql\connection.py", line 521, in _connect
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'remotemysql.com'")
+
+========================================
+- Time: 03/08/2021 - 13:20:38
+- Error: 
+Traceback (most recent call last):
+  File "aiomysql\connection.py", line 503, in _connect
+  File "aiomysql\connection.py", line 785, in _request_authentication
+  File "aiomysql\connection.py", line 593, in _read_packet
+  File "pymysql\protocol.py", line 220, in check_error
+  File "pymysql\err.py", line 109, in raise_mysql_exception
+pymysql.err.OperationalError: (1045, "Access denied for user 'iig9ez4StJ'@'86.59.131.232' (using password: YES)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "main.py", line 58, in <module>
+  File "asyncio\base_events.py", line 616, in run_until_complete
+  File "main.py", line 38, in main
+  File "aiomysql\pool.py", line 29, in _create_pool
+  File "aiomysql\pool.py", line 167, in _fill_free_pool
+  File "aiomysql\connection.py", line 75, in _connect
+  File "aiomysql\connection.py", line 521, in _connect
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'remotemysql.com'")

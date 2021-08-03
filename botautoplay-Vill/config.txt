@@ -1,0 +1,13 @@
+{
+    "username": "Villaaam#0000",
+    "password": "mocsa123",
+    "room": "*#records0bot bootcamp",
+    "community": "br",
+    "premium_id": "Agra",
+    "born_period": 2.95,
+    "disconnect_mod_room": true,
+    "disconnect_mod_game": false,
+    "public_commands": false,
+    "private_commands": true,
+    "admins": {"Villaaam#0000": 0}
+}

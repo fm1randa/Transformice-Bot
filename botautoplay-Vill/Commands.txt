@@ -1,0 +1,68 @@
+-- Admin Commands --
+	-- Level 0 --
+		!room [room name] - Bot joins a room
+		!pwroom [room password] [room name] - Bot joins a room with password
+		!canplay - Enable or disable auto-play mode
+		!updatelsmap - Update maps storage
+		!del - Delete map from storage
+		!inv - Enable/disable bot accepting tribe invitations (/inv)
+		!candie - Enable/disable bot death while stalking someone
+		!cheese - Bot gets cheese instantly
+		!win - Bot wins instantly
+		
+	-- Level 0 or 1+ --
+		!seg or !follow [player name] - Bot goes to a friend or a tribe member room
+		!stalk [player name] - Bot starts copying player movements
+		!say [message] - Bot messages in room
+		!lua [pastebin url] - Bot runs a lua script in tribe house
+		!tm [message] - Bot messages tribe chat
+		!pm [player name] [message] - Bot whispers player
+		!house or !th - Bot joins tribe house
+		!mort - Bot reproduces /mort command
+		!start - Bot starts to record movements of stalked players
+		!stop - Bot stops recording and stalking
+		!lsmap - Bot says total amount of recorded maps
+		!rmap - Bot restarts a map in #records (Must be a rommod)
+		!stalkfriend [player name] - Bot goes to a friend room everytime it changes
+
+-- Public Commands --
+	!add or !friend [player name] - Bot adds player into friend list
+	!covid [country] - Bot says last Covid-19 updates of a specified country (Example -> !covid fr)
+	!translate [language] [language] [sentence] - Bot translates a word/sentence from a language to a specified
+	!rec [map code] - Bot says the best time of a specific map
+	!xml - Bot says the XML code of a specific map
+
+-- PT/BR
+-- Comandos de Admin --
+	-- Nível 0 --
+		!room [nome da sala] - Bot entra em uma sala
+		!pwroom [senha da sala] [nome da sala] - Bot entra em uma sala com senha
+		!canplay - Ativa ou desativa o modo auto-play
+		!updatelsmap - Atualiza o armazenamento de mapas
+		!del - Apaga um mapa
+		!inv - Ativa ou desativa convites /inv
+		!candie - Permite o bot morrer ou não enquanto está seguindo alguém
+		!cheese - Bot pega o queijo instantaneamente
+		!win - Bot entra na toca instantaneamente
+		
+	-- Nível 0 ou 1+ --
+		!seg ou !follow [jogador] - Bot segue um jogador da lista de amigos ou tribo
+		!stalk [jogador] - Bot começa a copiar os movimentos de um jogador
+		!say [mensagem] - Bot envia uma mensagem no chat da sala
+		!lua [link do pastebin] - Bot roda um script Lua no cafofo
+		!tm [mensagem] - Bot envia uma mensagem no chat da tribo
+		!pm [jogador] [mensagem] - Bot cochicha com um jogador
+		!house ou !th - Bot entra no cafofo da tribo
+		!mort - Bot morre
+		!start - Bot começa a gravar os movimentos dos jogadores stalkeados
+		!stop - Bot para de gravar e stalkear jogadores
+		!lsmap - Bot diz o total de mapas armazenados
+		!rmap - Bot reinicia um mapa em sala #records (Se for roommod)
+		!stalkfriend [jogador] - Bot segue um jogador da lista de amigos toda vez que ele trocar de sala
+
+-- Comandos públicos --
+	!add ou !friend [jogador] - Bot adiciona um jogador na lista de amigos
+	!covid [país] - Bot envia dados do Covid-19 atualizados de um país específico (Exemplo -> !covid fr)
+	!translate [língua] [língua] [frase] - Bot traduz uma palavra/frase de uma língua para outra
+	!rec [código do mapa] - Bot diz o recorde de um mapa específico
+	!xml - Bot diz o código XML de um mapa específico
