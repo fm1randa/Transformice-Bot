@@ -1,9 +1,9 @@
 {
     "username": "Villaaam#0000",
-    "password": "mocsa123",
+    "password": "...",
     "room": "*#records0bot bootcamp",
-    "community": "br",
-    "premium_id": "Agra",
+    "community": "hu",
+    "premium_id": "Vill",
     "born_period": 2.95,
     "disconnect_mod_room": true,
     "disconnect_mod_game": false,
